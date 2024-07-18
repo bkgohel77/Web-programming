@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+body {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    background: linear-gradient(to right, rgb(244, 242, 243), rgb(2, 5, 69)); 
+}
+
+.bg-light {
+    background: linear-gradient(to right, #e40909, #07c566);
+    box-shadow: 0 4px 8px #d018189f;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    color: blue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:hover {
+    color: #4CAF50; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #FFC107;
+    border: none;
+    color: br;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #00BCD4;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+table tr:nth-child(odd) td {
+    background-color: #FFDAB9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #289;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #007BFF; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #269;
+    text-decoration: underline;
+}
+
+legend {
+    font-family: 'Open Sans', sans-serif;
+    color: #E83E8C;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #DC3545; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFC107; 
+    color: black;
+}

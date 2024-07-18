@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB700</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/theme.css">
+    <style>
+        body {
+            background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg'); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Bhavesh Ketan Gohel </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/htmlDemo">Html Demo</a></li>
+                <li class="nav-item"><a class="nav-link" href="/students/add">Add Student</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/students">Students</a></li>
+                <li class="nav-item"><a class="nav-link" href="/tas">Teaching Assistants</a></li>
+                <li class="nav-item"><a class="nav-link" href="/courses">Courses</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <main class="col-md-12 content">
+
+                <!-- Start your code here -->
+
+                <!-- Tables Section -->
+                <section>
+                    <h2>Tables</h2>
+                    <table class="table table-bordered">
+                        <caption>Sample Table 1</caption>
+                        <thead>
+                            <tr>
+                                <th>Header 1</th>
+                                <th colspan="2">Header 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Row 1, Cell 1</td>
+                                <td>Row 1, Cell 2</td>
+                                <td>Row 1, Cell 3</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Row 2-3, Cell 1</td>
+                                <td>Row 2, Cell 2</td>
+                                <td>Row 2, Cell 3</td>
+                            </tr>
+                            <tr>
+                                <td>Row 3, Cell 2</td>
+                                <td>Row 3, Cell 3</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Footer 1</td>
+                                <td>Footer 2</td>
+                                <td>Footer 3</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <table class="table table-striped">
+                        <caption>Sample Table 2</caption>
+                        <thead>
+                            <tr>
+                                <th>Header A</th>
+                                <th colspan="2">Header B</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Row A, Cell 1</td>
+                                <td>Row A, Cell 2</td>
+                                <td>Row A, Cell 3</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Row B-C, Cell 1</td>
+                                <td>Row B, Cell 2</td>
+                                <td>Row B, Cell 3</td>
+                            </tr>
+                            <tr>
+                                <td>Row C, Cell 2</td>
+                                <td>Row C, Cell 3</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Footer A</td>
+                                <td>Footer B</td>
+                                <td>Footer C</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <p>This section demonstrates the use of HTML tables with various properties such as headers, footers, and spanning rows and columns.</p>
+                </section>
+
+                <!-- Lists Section -->
+                <section>
+                    <h2>Lists</h2>
+                    <ol>
+                        <li>First item
+                            <ul>
+                                <li>Subitem 1</li>
+                                <li>Subitem 2</li>
+                                <li>Subitem 3</li>
+                            </ul>
+                        </li>
+                        <li>Second item</li>
+                        <li>Third item</li>
+                        <li>Fourth item</li>
+                        <li>Fifth item</li>
+                    </ol>
+
+                    <p>This section demonstrates the use of ordered and unordered lists. The first item in the ordered list contains a nested unordered list.</p>
+                </section>
+
+                <!-- Images Section -->
+                <section>
+                    <h2>Images</h2>
+                    <img src="https://www.w3schools.com/w3images/nature.jpg
+                    " alt="Random Image 1" class="img-thumbnail">
+                    <img src="https://www.w3schools.com/w3images/snow.jpg
+                    " alt="Random Image 2" class="img-thumbnail">
+                    <img src="https://www.w3schools.com/w3images/mountains.jpg
+                    " alt="Random Image 3" class="img-thumbnail">
+                
+
+                    <p>This section contains three images with alt text. These images serve as placeholders and can be replaced with any relevant images.</p>
+                </section>
+
+                <!-- Audio Section -->
+                <section>
+                    <h2>Audio</h2>
+                    <audio controls>
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mpeg">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.ogg" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+                    <p>This section includes an HTML5 audio player with two different audio formats (MP3 and OGG).</p>
+                </section>
+
+                <!-- Video Section -->
+                <section>
+                    <h2>Video</h2>
+                    <video controls width="320" height="240">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.ogg" type="video/ogg">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <p>This section includes an HTML5 video player with three different video formats (MP4, OGG, and WEBM).</p>
+                </section>
+
+            
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDzwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
